@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,8 @@ namespace ConsoleApp23
         static void Main(string[] args)
         {
             Console.WriteLine("Main");
+            Class1 obj1 = new Class1();
+            obj1.MyProperty = 44;
         }
     }
 }
