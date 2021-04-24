@@ -10,6 +10,7 @@ namespace ConsoleApp23
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Main");
         }
     }
 }
